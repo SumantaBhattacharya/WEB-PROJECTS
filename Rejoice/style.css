@@ -1,0 +1,342 @@
+@font-face {
+    font-family: 'NBInternationalProBoo';
+    src: url('fonts/NBInternationalProBoo.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* ttf conversion */
+/*  font-family: 'NBInternationalProBoo', sans-serif;+ */
+
+@font-face {
+    font-family: 'Rejouice-Headline';
+    src: url("./Rejouice-Headline\ \(1\).woff2") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* font-family: 'Rejouice-Headline', sans-serif; */
+
+::selection {
+    background: #3399FF;
+    /* Background color of the selection */
+    color: #FFFFFF;
+    /* Text color of the selection */
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.page1 .cursor {
+    height: 7vw;
+    width: 7vw;
+    background-color: #ff6038cb;
+    position: fixed;
+    z-index: 2;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* transform: translate(-50%,-50%); */
+}
+
+.page1 .cursor h5 {
+    font-size: 1vw;
+    font-family: 'NBInternationalProBoo', sans-serif;
+    font-weight: 500;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.page1 .video video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    z-index: 1;
+}
+
+.page1 .page1_content {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    position: relative;
+    z-index: 3;
+    color: white;
+
+}
+
+.page1 .page1_content nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3.1vw 2.7vw;
+    font-family: 'NBInternationalProBoo', sans-serif;
+    font-weight: 100;
+}
+
+.page1 .page1_content nav h3 {
+    font-weight: 100;
+    font-size: 1.4vw;
+}
+
+.page1 .page1_content nav h4 {
+    font-weight: 100;
+    font-size: 1.4vw;
+}
+
+.page1 .page1_content .heading1 {
+    position: absolute;
+    top: 90%;
+    /* width: 100%; */
+    left: 50%;
+    transform: translate(-50%, -90%);
+    font-family: 'Rejouice-Headline', sans-serif;
+
+
+}
+
+.page1 .page1_content .heading1 h1 {
+    width: 100%;
+    font-weight: 150;
+    letter-spacing: 1.2vw;
+    font-size: 26vw;
+    line-height: 26vw;
+    display: inline-block;
+}
+
+.page2 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.page2 .written {
+    display: flex;
+    justify-content: space-between;
+    padding: 6vw 2vw 1vw 2vw;
+    font-family: 'NBInternationalProBoo', sans-serif;
+    border-bottom: 0.1vw solid black;
+    margin-right: 3vw;
+    margin-left: 3vw;
+}
+
+
+
+.page2 .written span h6 {
+    font-size: 1.6vw;
+    font-weight: 100;
+
+}
+
+.page2 .write {
+    padding: 4vw;
+}
+
+.page2 .write h4 {
+    font-family: 'NBInternationalProBoo', sans-serif;
+    font-size: 4vw;
+    font-weight: 100;
+
+}
+
+.page2 .write .a h4 {
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.page3 {
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+}
+
+.page3 .page3-top {
+    /* background-color: #3399FF; */
+    text-align: center;
+}
+
+.page3 .page3-top h4 {
+    margin-bottom: 1vw;
+    font-size: 1.4vw;
+    font-weight: 500;
+    font-family: 'NBInternationalProBoo', sans-serif;
+}
+
+.page3 .page3-top h2 {
+    font-size: 4vw;
+    font-weight: 500;
+    font-family: 'NBInternationalProBoo', sans-serif;
+}
+
+.page3 .page3-top h4 span {
+    background-color: black;
+    color: white;
+    border-radius: 50vw;
+    font-size: 0.7vw;
+    padding: 4px 10px;
+}
+
+.page3 .transforming {
+    display: flex;
+    padding: 14vw 6vw 0vw 1vw;
+    justify-content: space-between;
+    font-family: 'NBInternationalProBoo', sans-serif;
+    position: relative;
+
+}
+
+.page3 .transforming h3 {
+    font-weight: 100;
+    font-size: 1.6vw;
+}
+
+.page3-elements {
+    margin-top: 2vw;
+    height: 40vw;
+    width: 94%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #ff3377; */
+    position: relative;
+}
+
+.page3-elements .box {
+    height: 100%;
+    width: 32.5%;
+    position: relative;
+}
+
+.page3-elements .box video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 1;
+}
+
+.page3-elements .box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    z-index: 2;
+    position: absolute;
+    transition: all linear 0.7s;
+}
+
+.page3-elements .box:hover img {
+    opacity: 0;
+}
+
+.page4 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.page4 svg {
+    position: absolute;
+    height: 60%;
+    width: 100%;
+}
+
+.page4 video {
+    height: 100vh;
+    width: 50%;
+}
+
+.page5 {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 4vw 0;
+    font-family: 'Rejouice-Headline', sans-serif;
+    padding: 3vw;
+}
+
+.page5 h1 {
+    font-size: 10vw;
+    font-weight: 500;
+    border-bottom: 1px solid black;
+    width: 95%;
+
+}
+
+.page5 .swipper {
+    height: 60vh;
+    width: 100%;
+    /* background-color: #3399FF; */
+    position: relative;
+    padding: 0vw;
+    margin-top: -5%;
+}
+
+.swiper {
+    width: 80%;
+    height: 100%;
+}
+
+.swiper-slide {
+    width: 20vw !important; 
+    background-color: #3399FF;
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+
+    object-fit: cover;
+}
+
+.swiper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.loader{
+    height: 100%;
+    width: 100%;
+    background-color: #ff0000;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    gap: 1vw;
+}
+
+.loader h3{
+    font-size: 2vw;
+    font-family: 'Rejouice-Headline', sans-serif; 
+}
