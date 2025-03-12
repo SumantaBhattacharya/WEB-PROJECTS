@@ -1,0 +1,1227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <div class="container-fluid">
+      <!-- Navbar brand and toggler button -->
+      <a class="navbar-brand" href="#">
+        <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
+          class="d-inline-block align-text-top mr-2">
+        Bootstrap
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <!-- Navbar links -->
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true" href="#">Disabled</a>
+        </li>
+      </ul>
+      <!-- Search form -->
+      <form class="d-flex">
+        <input class="form-control me-2 rounded-pill" type="search" placeholder="TYPE" aria-label="Search">
+        <button class="btn btn-outline-primary rounded-pill" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+  <div class="contain-er">
+    <h2>Bootstrap</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus, quisquam omnis iure debitis, illum ipsum
+      minus officiis sapiente quia libero veniam, nisi consectetur exercitationem sed quasi magni? Ipsum, incidunt quo.
+      Nihil voluptates culpa corporis iusto asperiores doloremque repellendus aliquam architecto deleniti exercitationem
+      laudantium fuga inventore expedita animi, mollitia iste debitis aspernatur! Autem voluptate suscipit distinctio ut
+      sequi sunt voluptas. Assumenda?
+      Molestiae dolorem blanditiis, similique iusto molestias rerum minima totam unde incidunt ut corporis modi velit
+      eligendi suscipit! Saepe iusto mollitia ducimus neque, laborum sequi, porro architecto molestias provident ipsa
+      eius.
+      lorem*33
+      Itaque reiciendis aliquid odio eligendi, atque, deserunt nostrum perferendis veritatis, quo nihil repellendus! In
+      delectus earum, vel facere architecto est tempore provident aperiam minus perspiciatis distinctio autem
+      consectetur consequatur maiores.
+      Dolores eveniet pariatur debitis nostrum fugit dicta itaque tenetur corporis minima, consequatur minus consectetur
+      iusto non. Alias voluptas consequatur quas deserunt praesentium consectetur ad cumque, doloribus, voluptatibus
+      incidunt, veniam dicta?</p>
+  </div>
+  <button type="button" class="btn btn-primary">Primary</button>
+  <button type="button" class="btn btn-secondary">Secondary</button>
+  <button type="button" class="btn btn-success">Success</button>
+  <button type="button" class="btn btn-danger">Danger</button>
+  <button type="button" class="btn btn-warning">Warning</button>
+  <button type="button" class="btn btn-info">Info</button>
+  <button type="button" class="btn btn-light">Light</button>
+  <button type="button" class="btn btn-dark">Dark</button>
+  <button type="button" class="btn btn-outline-primary">Primary</button>
+  <button type="button" class="btn btn-outline-secondary">Secondary</button>
+  <button type="button" class="btn btn-outline-success">Success</button>
+  <button type="button" class="btn btn-outline-danger">Danger</button>
+  <button type="button" class="btn btn-outline-warning">Warning</button>
+  <button type="button" class="btn btn-outline-info disabled">desabled</button>
+  <button type="button" class="btn btn-outline-light btn-lg rounded-pill">Light</button>
+  <button type="button" class="btn btn-outline-dark btn-sm">Dark</button>
+
+  <button type="button" class="btn btn-link">Link</button>
+  <button type="button" class="btn btn-primary" id="hove"
+    style="background-color: #ff5778; border-color: #ff5733; color: blue;">Custom Primary Button</button>
+
+
+  <a href="www.google.com" class="btn btn-dark">Google me</a>
+
+  <br>
+
+  <span class="badge bg-danger">10+</span>
+  <h1>Example heading <span class="badge text-bg-light">30+</span></h1><!-- whole thing is in h1 -->
+
+  <br>
+
+  <button class="btn btn-primary">
+    Followers
+    <span class="badge rounded-pill text-bg-info">Info</span>
+  </button>
+
+  <div class="alert alert-danger alert-dismissible ">
+    Download failed! Please try again.
+    <button type="button" class="btn-close" data-bs-dismiss="alert">
+      <!-- <span aria-hidden="true">&times;</span> -->
+    </button>
+  </div>
+
+  <hr>
+
+  <div class="btn-group"">
+    <button type=" button" class="btn btn-danger">Left</button>
+    <button type="button" class="btn btn-warning">Middle</button>
+    <button type="button" class="btn btn-success">Right</button>
+  </div>
+
+  <div class="btn-group">
+    <a href="#" class="btn btn-primary active">Active link</a>
+    <a href="#" class="btn btn-primary">Link</a>
+  </div>
+
+  <div class="card" style="width: 18rem;">
+    <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card title</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+        content.</p>
+      <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-6 bg-black text-center">one</div>
+      <!-- xs(<576px) sm(>=576) md(>=768px) lg(>=992px) xxl(>=1400px)  col-md-6 -->
+      <div class="col-6 bg-white text-black">two</div>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 bg-black text-center"> xs(<576px) sm(>=576) md(>=768px) lg(>=992px) xxl(>=1400px) col-md-6
+      </div><!-- xs(<576px) sm(>=576) md(>=768px) lg(>=992px) xxl(>=1400px)  col-md-6 -->
+      <div class="col-xl-4 bg-warning text-black">two</div>
+      <div class="col-md-2 bg-black text-white">THREE</div>
+    </div>
+    <br>
+    <div class="container  ">
+      <div class="row align-items-top">
+        <div class="col bg-black text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis enim
+          minima neque dolores, perspiciatis laboriosam iste aliquid cupiditate. Id fugiat tempore numquam amet aliquam
+          facilis tenetur eveniet magni tempora blanditiis? </div>
+        <!-- xs(<576px) sm(>=576) md(>=768px) lg(>=992px) xxl(>=1400px)  col-md-6 -->
+        <div class="col bg-warning text-black">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione
+          accusantium, ab, culpa repudiandae vitae dolore suscipit tempora tempore a autem dolores eligendi, libero
+          reprehenderit Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro necessitatibus placeat alias
+          beatae nobis nihil obcaecati excepturi dignissimos ratione quia, laborum illum saepe sint consequuntur,
+          corporis quas tempore ducimus quis. architecto nemo doloremque est numquam! Id.</div>
+        <div class="col bg-black text-white align-self-end">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Quod quidem repellat maiores aliquid nobis saepe, hic dolorem corrupti? Libero quisquam quos, voluptas dolorem
+          laborum sed dolorum in laboriosam alias possimus?</div>
+      </div>
+    </div>
+
+    <h2>form </h2>
+    <form>
+      <div class="row">
+        <div class="col-md-56 mb-3"><!--margin-bottom-3 -->
+          <label for="exampleFormControlInput1" class="form-label">Email address</label> <!-- id -> for -->
+          <input type="email" class="form-control-sm" id="exampleFormControlInput1" placeholder="name@example.com"
+            aria-describedby="emailHelp">
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input type="password" class="form-control-lg" id="exampleInputPassword1">
+        </div>
+      </div>
+
+
+
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+        <textarea class="form-control-sm" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+
+
+      <!-- https://getbootstrap.com/docs/5.3/utilities/spacing/ -->
+
+
+      <div class="md-3">
+        <select class="form-select form-select-lg">
+          <option selected>Open this select menu</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+
+      <div class="form-check form-switch">
+        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
+        <label class="form-check-label" for="flexSwitchCheckDefault">Default switch checkbox input</label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+        <label class="form-check-label" for="exampleRadios1">
+          Default radio
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+        <label class="form-check-label" for="exampleRadios2">
+          Second default radio
+        </label>
+
+    </form>
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script> -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/.5.2/js/bootstrap.min.js"></script> -->
+    <script src="test.js"></script>
+    <!-- Bootstrap Bundle (Bootstrap + Popper.js) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
+<!-- Bootstrap is a framework/toolkit for css  
+     Bootstrap is a powerfull,feature-packed frontend toolkit.Build anything-from prototype to prduction-in minutes
+     prebuild css
+     Benifits of Bootstrap
+     Make devlopment faster 
+     and easier.
+     Good choice of pre- build components 
+     good browser compatability
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+     content delevery network
+     class="btn btn-success"
+     btn-danger
+     Components 
+     pre-build and reusable piece of user interface(UI)
+     eg-button,forms
+     Layouts
+     overall structure and arrangements of the elements 
+     eg-container,grid
+     Container
+     Layout
+     containers are used to contain,pad and (sometimes) cventer the content withion them.
+
+     Extra small
+<576px
+Small
+≥576px
+Medium
+≥768px
+Large
+≥992px
+X-Large
+≥1200px
+XX-Large
+≥1400px
+.container	100%	540px	720px	960px	1140px	1320px
+.container-sm	100%	540px	720px	960px	1140px	1320px
+.container-md	100%	100%	720px	960px	1140px	1320px
+.container-lg	100%	100%	100%	960px	1140px	1320px
+.container-xl	100%	100%	100%	100%	1140px	1320px
+.container-xxl	100%	100%	100%	100%	100%	1320px
+.container-fluid	100%	100%	100%	100%	100%	100%
+
+    components
+    Buttons
+    <button type="button" class="btn btn-primary">Primary</button> 
+<button type="button" class="btn btn-secondary">Secondary</button> 
+<button type="button" class="btn btn-success">Success</button>     
+<button type="button" class="btn btn-danger">Danger</button>
+<button type="button" class="btn btn-warning">Warning</button>
+<button type="button" class="btn btn-info">Info</button>
+<button type="button" class="btn btn-light">Light</button>
+<button type="button" class="btn btn-dark">Dark</button>
+
+<button type="button" class="btn btn-link">Link</button>
+
+Components
+Example heading New
+
+     
+       <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    Download failed! Please try again.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
+
+  Components 
+  Button group
+
+  bootstrap
+  js
+  backend
+  react
+  next js
+
+  grid twelve column system
+
+  https://getbootstrap.com/docs/5.3/forms/overview/
+
+  <form>
+  <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" aria-describedby="emailHelp">
+  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+   <div class="mb-3">
+    <label for="exampleInputPassword1" class="form-label">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1">
+  </div>
+  <div class="mb-3 form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</div>
+</form>
+
+m - for classes that set margin
+p - for classes that set padding
+Where sides is one of:
+
+t - for classes that set margin-top or padding-top
+b - for classes that set margin-bottom or padding-bottom
+s - (start) for classes that set margin-left or padding-left in LTR, margin-right or padding-right in RTL
+e - (end) for classes that set margin-right or padding-right in LTR, margin-left or padding-left in RTL
+x - for classes that set both *-left and *-right
+y - for classes that set both *-top and *-bottom
+blank - for classes that set a margin or padding on all 4 sides of the element
+Where size is one of:
+
+0 - for classes that eliminate the margin or padding by setting it to 0
+1 - (by default) for classes that set the margin or padding to $spacer * .25
+2 - (by default) for classes that set the margin or padding to $spacer * .5
+3 - (by default) for classes that set the margin or padding to $spacer
+4 - (by default) for classes that set the margin or padding to $spacer * 1.5
+5 - (by default) for classes that set the margin or padding to $spacer * 3
+auto - for classes that set the margin to auto
+
+https://getbootstrap.com/docs/5.3/utilities/spacing/
+
+-->
+
+<!-- //status code
+// 22 - OK
+// 404 - Not found
+// 400 - bad request
+// 500 - internal server error
+
+/* The Terminal */
+// A text input and output environment.
+
+// Different Terms
+// Command line - any interface that is used by entering textual commands (gen. Windows centric)
+// Terminal - This is a type of command line(gen. MAC centric)
+// Console - A command-line interface used to work with your computer
+// shell - A program running on Terminal
+// Bash - A popular shell on MAC OS/Linux
+// Z-shell(ZSH) - Another shell(default) preinstalled in MAC OS -->
+
+<!-- git bash 
+  https://git-scm.com/download/win
+
+-->
+
+<!-- git --version
+     ls-
+     clear
+     pwd
+     dir
+     mkdir file_name
+     -->
+
+     <!-- cd Desktop -->
+
+<!-- ls = list files
+          (show my files)
+          pwd = print working directory
+          (where am I?)(current working directory)
+          clear = clear screen 
+          cd "\Users\SUDIP BHATTACHARYA\Desktop\WEB\P1"
+          git --help
+          
+-->
+
+<!-- ~ home directory (main folder)
+    /  root directory
+     folder -> directory
+-->
+
+<!-- Navigation
+    inside & Outide Directories
+    cd = change directory
+
+    cd .. 
+    (step back)
+    cd ../..
+
+    cd / - root directory
+    cd ~   main directory
+
+    tab to get suggestions
+  -->
+
+  <!-- Making Directories
+       mkdir = make directory
+  -->
+
+  <!-- Paths
+  Absolute & Relative
+  cd Desktop/WEB/P1(relative path)
+  (depends on current working directory)
+  cd "\Users\SUDIP BHATTACHARYA\Desktop\WEB\P1"(absolute path)
+  (Absolute paths start with /(slash) )
+-->
+
+<!-- 
+Flags
+Flags are characters that we pass with commands do modify their behaviour
+
+manual Command 
+man ls - give info about ls command or ls --help (Running this command will display a summary of the ls command's options and usage. The output will be similar to a manual page)
+man mkdir - give info about mkdir command
+man touch or touch --help
+
+with Flags
+ls -l
+ls -a (for hidden file starts with .)
+ls -la (combination of flags)
+
+ls -i
+or(To list files and directories along with their inode numbers)
+ls --inode
+ls -il
+ls --inode -l
+ls - list directory contents
+-->
+
+<!-- Touch Command
+ Used to create new files
+ touch index.html
+ touch test.js
+ touch text.txt -->
+
+
+<!-- mkdir folder_name used to craete folder
+    touch CommandUsed to create new files
+    touch index.html
+    touch test.js
+    touch text.txt -->
+
+    <!-- 
+      Deleting Files and Folders(once we delete any file or folder using thse commands in the terminal,
+      we cannot be able to restore it.)
+      rm- remove files
+      rmdir - removes empty folders
+      rm -rf - removes any folders(-rf(recursive force) are flags r is recursive delete for files and f forced delete it will ask no permission(no pop up))
+      rm file_name
+      we can also pass mutiple file names to it
+      rm file_name file_name
+
+    -->
+     
+
+<!-- 
+sudo apt install man-db
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ cd "\Users\SUDIP BHATTACHARYA\Desktop\WEB"
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop/WEB (main)
+$ ls
+CAC_bind/  P1/  P2/  P5/  Text/  cursor/  curve/  text_gsap/  timeline/
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop/WEB (main)
+$ ls -l
+total 8
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  2 18:27 CAC_bind/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  6 12:27 P1/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  6 12:28 P2/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  4 11:18 P5/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  1 11:49 Text/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 Apr 28 13:49 cursor/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 Apr 27 15:08 curve/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  2 14:33 text_gsap/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  2 14:33 timeline/
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop/WEB (main)
+$ ls -a
+./   .git/      P1/  P5/    cursor/  text_gsap/
+../  CAC_bind/  P2/  Text/  curve/   timeline/
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop/WEB (main)
+$ ls -i
+13792273859028077 CAC_bind/  11821949022038922 cursor/
+17169973579576129 P1/        32932572275184952 curve/
+18858823439807334 P2/         5348024557731412 text_gsap/
+21673573206947979 P5/        41095346599778820 timeline/
+17451448556287385 Text/
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop/WEB (main)
+$ ls -la
+total 20
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  6 12:28 ./
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  3 08:47 ../
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  6 12:22 .git/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  2 18:27 CAC_bind/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  6 12:27 P1/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  6 12:28 P2/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  4 11:18 P5/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  1 11:49 Text/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 Apr 28 13:49 cursor/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 Apr 27 15:08 curve/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  2 14:33 text_gsap/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121 0 May  2 14:33 timeline/
+
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop/WEB/P1
+$ cd /
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 /
+$ pwd
+/ 
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop/WEB/P1 (main)
+$ cd "\Users\SUDIP BHATTACHARYA\Desktop\WEB"
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop/WEB (main)
+$ mkdir P2
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ ls --help
+Usage: ls [OPTION]... [FILE]...
+List information about the FILEs (the current directory by default).
+Sort entries alphabetically if none of -cftuvSUX nor --sort is specified.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --all                  do not ignore entries starting with .
+  -A, --almost-all           do not list implied . and ..
+      --author               with -l, print the author of each file
+  -b, --escape               print C-style escapes for nongraphic characters
+      --block-size=SIZE      with -l, scale sizes by SIZE when printing them;
+                               e.g., '--block-size=M'; see SIZE format below
+  -B, --ignore-backups       do not list implied entries ending with ~
+  -c                         with -lt: sort by, and show, ctime (time of last
+                               modification of file status information);
+                               with -l: show ctime and sort by name;
+                               otherwise: sort by ctime, newest first
+  -C                         list entries by columns
+      --color[=WHEN]         colorize the output; WHEN can be 'always' (default
+                               if omitted), 'auto', or 'never'; more info below
+  -d, --directory            list directories themselves, not their contents
+  -D, --dired                generate output designed for Emacs' dired mode
+  -f                         do not sort, enable -aU, disable -ls --color
+  -F, --classify             append indicator (one of */=>@|) to entries
+      --file-type            likewise, except do not append '*'
+      --format=WORD          across -x, commas -m, horizontal -x, long -l,
+                               single-column -1, verbose -l, vertical -C
+      --full-time            like -l --time-style=full-iso
+  -g                         like -l, but do not list owner
+      --group-directories-first
+                             group directories before files;
+                               can be augmented with a --sort option, but any
+                               use of --sort=none (-U) disables grouping
+  -G, --no-group             in a long listing, don't print group names
+  -h, --human-readable       with -l and -s, print sizes like 1K 234M 2G etc.
+      --si                   likewise, but use powers of 1000 not 1024
+  -H, --dereference-command-line
+                             follow symbolic links listed on the command line
+      --dereference-command-line-symlink-to-dir
+                             follow each command line symbolic link
+                               that points to a directory
+      --hide=PATTERN         do not list implied entries matching shell PATTERN
+                               (overridden by -a or -A)
+      --hyperlink[=WHEN]     hyperlink file names; WHEN can be 'always'
+                               (default if omitted), 'auto', or 'never'
+      --indicator-style=WORD  append indicator with style WORD to entry names:
+                               none (default), slash (-p),
+                               file-type (--file-type), classify (-F)
+  -i, --inode                print the index number of each file
+  -I, --ignore=PATTERN       do not list implied entries matching shell PATTERN
+  -k, --kibibytes            default to 1024-byte blocks for disk usage;
+                               used only with -s and per directory totals
+  -l                         use a long listing format
+  -L, --dereference          when showing file information for a symbolic
+                               link, show information for the file the link
+                               references rather than for the link itself
+  -m                         fill width with a comma separated list of entries
+  -n, --numeric-uid-gid      like -l, but list numeric user and group IDs
+  -N, --literal              print entry names without quoting
+  -o                         like -l, but do not list group information
+  -p, --indicator-style=slash
+                             append / indicator to directories
+  -q, --hide-control-chars   print ? instead of nongraphic characters
+      --show-control-chars   show nongraphic characters as-is (the default,
+                               unless program is 'ls' and output is a terminal)
+  -Q, --quote-name           enclose entry names in double quotes
+      --quoting-style=WORD   use quoting style WORD for entry names:
+                               literal, locale, shell, shell-always,
+                               shell-escape, shell-escape-always, c, escape
+                               (overrides QUOTING_STYLE environment variable)
+  -r, --reverse              reverse order while sorting
+  -R, --recursive            list subdirectories recursively
+  -s, --size                 print the allocated size of each file, in blocks
+  -S                         sort by file size, largest first
+      --sort=WORD            sort by WORD instead of name: none (-U), size (-S),
+                               time (-t), version (-v), extension (-X)
+      --time=WORD            change the default of using modification times;
+                               access time (-u): atime, access, use;
+                               change time (-c): ctime, status;
+                               birth time: birth, creation;
+                             with -l, WORD determines which time to show;
+                             with --sort=time, sort by WORD (newest first)
+      --time-style=TIME_STYLE  time/date format with -l; see TIME_STYLE below
+  -t                         sort by time, newest first; see --time
+  -T, --tabsize=COLS         assume tab stops at each COLS instead of 8
+  -u                         with -lt: sort by, and show, access time;
+                               with -l: show access time and sort by name;
+                               otherwise: sort by access time, newest first
+  -U                         do not sort; list entries in directory order
+  -v                         natural sort of (version) numbers within text
+  -w, --width=COLS           set output width to COLS.  0 means no limit
+  -x                         list entries by lines instead of by columns
+  -X                         sort alphabetically by entry extension
+  -Z, --context              print any security context of each file
+  -1                         list one file per line.  Avoid '\n' with -q or -b
+      --append-exe           append .exe if cygwin magic was needed
+      --help     display this help and exit
+      --version  output version information and exit
+
+The SIZE argument is an integer and optional unit (example: 10K is 10*1024).
+Units are K,M,G,T,P,E,Z,Y (powers of 1024) or KB,MB,... (powers of 1000).
+Binary prefixes can be used, too: KiB=K, MiB=M, and so on.
+
+The TIME_STYLE argument can be full-iso, long-iso, iso, locale, or +FORMAT.
+FORMAT is interpreted like in date(1).  If FORMAT is FORMAT1<newline>FORMAT2,
+then FORMAT1 applies to non-recent files and FORMAT2 to recent files.
+TIME_STYLE prefixed with 'posix-' takes effect only outside the POSIX locale.
+Also the TIME_STYLE environment variable sets the default style to use.
+
+Using color to distinguish file types is disabled both by default and
+with --color=never.  With --color=auto, ls emits color codes only when
+standard output is connected to a terminal.  The LS_COLORS environment
+variable can change the settings.  Use the dircolors command to set it.
+
+Exit status:
+ 0  if OK,
+ 1  if minor problems (e.g., cannot access subdirectory),
+ 2  if serious trouble (e.g., cannot access command-line argument).
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/ls>
+or available locally via: info '(coreutils) ls invocation'
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ ls -i
+19140298416477322  -1.14-windows.xml
+38562071809370468 '3D Objects'/
+40532396646344459  AppData/
+10414574138304385 'Application Data'@
+84161018036496756  Contacts/
+11821949021857681  Cookies@
+55169095435298569  Desktop/
+33776997205288706  Documents/
+30399297484760833  Downloads/
+ 5348024557512448  Favorites/
+14073748835542783  Links/
+21110623253309327 'Local Settings'@
+17451448556075270  MicrosoftEdgeBackups/
+23925373020415742  Music/
+34902897112131452 'My Documents'@
+21392098230019834  NTUSER.DAT
+39406496739501944  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TM.blf
+14355223812253561  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000001.regtrans-ms
+22236523160151930  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000002.regtrans-ms
+38562071809369988  NetHood@
+ 9570149208173789  OneDrive/
+37717646879237885  Pictures/
+19140298416334726  PrintHood@
+23643898043705224  Recent@
+ 2814749767116540 'Saved Games'/
+21955048183441808  Searches/
+17169973579360139  SendTo@
+ 3096224743827340 'Start Menu'@
+ 9007199254751118  Templates@
+ 7599824371197691  Videos/
+36310271995684725  ntuser.dat.LOG1
+ 9007199254751094  ntuser.dat.LOG2
+13510798882121629  ntuser.ini
+
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ git --help
+usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]
+           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
+           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
+           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+           [--config-env=<name>=<envvar>] <command> [<args>]
+
+These are common Git commands used in various situations:
+
+start a working area (see also: git help tutorial)
+   clone     Clone a repository into a new directory
+   init      Create an empty Git repository or reinitialize an existing one
+
+work on the current change (see also: git help everyday)
+   add       Add file contents to the index
+   mv        Move or rename a file, a directory, or a symlink
+   restore   Restore working tree files
+   rm        Remove files from the working tree and from the index
+
+examine the history and state (see also: git help revisions)
+   bisect    Use binary search to find the commit that introduced a bug
+   diff      Show changes between commits, commit and working tree, etc
+   grep      Print lines matching a pattern
+   log       Show commit logs
+   show      Show various types of objects
+   status    Show the working tree status
+
+grow, mark and tweak your common history
+   branch    List, create, or delete branches
+   commit    Record changes to the repository
+   merge     Join two or more development histories together
+   rebase    Reapply commits on top of another base tip
+   reset     Reset current HEAD to the specified state
+   switch    Switch branches
+   tag       Create, list, delete or verify a tag object signed with GPG
+
+collaborate (see also: git help workflows)
+   fetch     Download objects and refs from another repository
+   pull      Fetch from and integrate with another repository or a local branch
+   push      Update remote refs along with associated objects
+
+'git help -a' and 'git help -g' list available subcommands and some
+concept guides. See 'git help <command>' or 'git help <concept>'
+to read about a specific subcommand or concept.
+See 'git help git' for an overview of the system.
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ ls -il
+total 5249
+19140298416477322 -rw-r--r-- 1 SUDIP BHATTACHARYA 197121    6903 Oct 12  2022  -1.14-windows.xml
+38562071809370468 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021 '3D Objects'/
+40532396646344459 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Sep 18  2018  AppData/
+10414574138304385 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      43 Sep 18  2018 'Application Data' -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming'/
+84161018036496756 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Contacts/
+11821949021857681 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      71 Sep 18  2018  Cookies -> '/c/Users/SUDIP BHATTACHARYA/AppData/Local/Microsoft/Windows/INetCookies'/
+55169095435298569 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  3 08:47  Desktop/
+33776997205288706 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  3 09:01  Documents/
+30399297484760833 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  6 09:48  Downloads/
+ 5348024557512448 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Favorites/
+14073748835542783 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Links/
+21110623253309327 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      41 Sep 18  2018 'Local Settings' -> '/c/Users/SUDIP BHATTACHARYA/AppData/Local'/
+17451448556075270 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Jun 22  2020  MicrosoftEdgeBackups/
+23925373020415742 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 23  2021  Music/
+34902897112131452 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      37 Sep 18  2018 'My Documents' -> '/c/Users/SUDIP BHATTACHARYA/Documents'/
+21392098230019834 -rw-r--r-- 1 SUDIP BHATTACHARYA 197121 2883584 May  6 12:45  NTUSER.DAT
+39406496739501944 -rw-r--r-- 1 SUDIP BHATTACHARYA 197121   65536 Sep 18  2018  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TM.blf
+14355223812253561 -rw-r--r-- 1 SUDIP BHATTACHARYA 197121  524288 Sep 18  2018  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000001.regtrans-ms
+22236523160151930 -rw-r--r-- 1 SUDIP BHATTACHARYA 197121  524288 Sep 18  2018  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000002.regtrans-ms
+38562071809369988 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      79 Sep 18  2018  NetHood -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+ 9570149208173789 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug  8  2021  OneDrive/
+37717646879237885 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Apr 30 12:30  Pictures/
+19140298416334726 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      79 Sep 18  2018  PrintHood -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+23643898043705224 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      68 Sep 18  2018  Recent -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Recent'/
+ 2814749767116540 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021 'Saved Games'/
+21955048183441808 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Searches/
+17169973579360139 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      68 Sep 18  2018  SendTo -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/SendTo'/
+ 3096224743827340 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      72 Sep 18  2018 'Start Menu' -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Start Menu'/
+ 9007199254751118 lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      71 Sep 18  2018  Templates -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Templates'/
+ 7599824371197691 drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Feb  2 23:15  Videos/
+36310271995684725 -rw-r--r-- 1 SUDIP BHATTACHARYA 197121  540672 Sep 18  2018  ntuser.dat.LOG1
+ 9007199254751094 -rw-r--r-- 1 SUDIP BHATTACHARYA 197121  794624 Sep 18  2018  ntuser.dat.LOG2
+13510798882121629 -rw-r--r-- 1 SUDIP BHATTACHARYA 197121      20 Sep 18  2018  ntuser.ini
+
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ ls -l
+total 6597
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121    6903 Oct 12  2022  -1.14-windows.xml
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021 '3D Objects'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Sep 18  2018  AppData/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      43 Sep 18  2018 'Application Data' -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Contacts/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      71 Sep 18  2018  Cookies -> '/c/Users/SUDIP BHATTACHARYA/AppData/Local/Microsoft/Windows/INetCookies'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  3 08:47  Desktop/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  3 09:01  Documents/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  6 09:48  Downloads/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Favorites/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Links/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      41 Sep 18  2018 'Local Settings' -> '/c/Users/SUDIP BHATTACHARYA/AppData/Local'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Jun 22  2020  MicrosoftEdgeBackups/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 23  2021  Music/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      37 Sep 18  2018 'My Documents' -> '/c/Users/SUDIP BHATTACHARYA/Documents'/
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121 2883584 May  6 12:45  NTUSER.DAT
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121   65536 Sep 18  2018  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TM.blf
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121  524288 Sep 18  2018  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121  524288 Sep 18  2018  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      79 Sep 18  2018  NetHood -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug  8  2021  OneDrive/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Apr 30 12:30  Pictures/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      79 Sep 18  2018  PrintHood -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      68 Sep 18  2018  Recent -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Recent'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021 'Saved Games'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Searches/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      68 Sep 18  2018  SendTo -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/SendTo'/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      72 Sep 18  2018 'Start Menu' -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      71 Sep 18  2018  Templates -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Templates'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Feb  2 23:15  Videos/
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121 2224128 Sep 18  2018  ntuser.dat.LOG1
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121  491520 Sep 18  2018  ntuser.dat.LOG2
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121      20 Sep 18  2018  ntuser.ini
+
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ ls -a
+ -1.14-windows.xml
+ ./
+ ../
+ .MemuHyperv/
+ .TianTianVM/
+ .VirtualBox/
+ .android/
+ .bash_history
+ .codeium/
+ .config/
+ .jsvu/
+ .node_repl_history
+ .skiko/
+ .vscode/
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TM.blf
+ NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+ SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ ls -la
+total 6623
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121    6903 Oct 12  2022  -1.14-windows.xml
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  6 09:57  ./
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Sep 18  2018  ../
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 23  2021  .MemuHyperv/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Dec 20  2020  .TianTianVM/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Dec 27  2020  .VirtualBox/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 23  2021  .android/
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121     473 May  6 12:26  .bash_history
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Apr 19 21:47  .codeium/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  5 18:36  .config/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  5 18:52  .jsvu/
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121      50 Apr 28 12:25  .node_repl_history
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Feb  2 21:13  .skiko/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Apr 19 21:17  .vscode/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021 '3D Objects'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Sep 18  2018  AppData/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      43 Sep 18  2018 'Application Data' -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Contacts/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      71 Sep 18  2018  Cookies -> '/c/Users/SUDIP BHATTACHARYA/AppData/Local/Microsoft/Windows/INetCookies'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  3 08:47  Desktop/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  3 09:01  Documents/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 May  6 09:48  Downloads/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Favorites/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Links/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      41 Sep 18  2018 'Local Settings' -> '/c/Users/SUDIP BHATTACHARYA/AppData/Local'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Jun 22  2020  MicrosoftEdgeBackups/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 23  2021  Music/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      37 Sep 18  2018 'My Documents' -> '/c/Users/SUDIP BHATTACHARYA/Documents'/
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121 2883584 May  6 12:45  NTUSER.DAT
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121   65536 Sep 18  2018  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TM.blf
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121  524288 Sep 18  2018  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000001.regtrans-ms
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121  524288 Sep 18  2018  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000002.regtrans-ms
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      79 Sep 18  2018  NetHood -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Network Shortcuts'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug  8  2021  OneDrive/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Apr 30 12:30  Pictures/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      79 Sep 18  2018  PrintHood -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Printer Shortcuts'/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      68 Sep 18  2018  Recent -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Recent'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021 'Saved Games'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Aug 22  2021  Searches/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      68 Sep 18  2018  SendTo -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/SendTo'/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      72 Sep 18  2018 'Start Menu' -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Start Menu'/
+lrwxrwxrwx 1 SUDIP BHATTACHARYA 197121      71 Sep 18  2018  Templates -> '/c/Users/SUDIP BHATTACHARYA/AppData/Roaming/Microsoft/Windows/Templates'/
+drwxr-xr-x 1 SUDIP BHATTACHARYA 197121       0 Feb  2 23:15  Videos/
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121 2224128 Sep 18  2018  ntuser.dat.LOG1
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121  491520 Sep 18  2018  ntuser.dat.LOG2
+-rw-r--r-- 1 SUDIP BHATTACHARYA 197121      20 Sep 18  2018  ntuser.ini
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ ls --inode
+19140298416477322  -1.14-windows.xml
+38562071809370468 '3D Objects'/
+40532396646344459  AppData/
+10414574138304385 'Application Data'@
+84161018036496756  Contacts/
+11821949021857681  Cookies@
+55169095435298569  Desktop/
+33776997205288706  Documents/
+30399297484760833  Downloads/
+ 5348024557512448  Favorites/
+14073748835542783  Links/
+21110623253309327 'Local Settings'@
+17451448556075270  MicrosoftEdgeBackups/
+23925373020415742  Music/
+34902897112131452 'My Documents'@
+21392098230019834  NTUSER.DAT
+39406496739501944  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TM.blf
+14355223812253561  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000001.regtrans-ms
+22236523160151930  NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000002.regtrans-ms
+38562071809369988  NetHood@
+ 9570149208173789  OneDrive/
+37717646879237885  Pictures/
+19140298416334726  PrintHood@
+23643898043705224  Recent@
+ 2814749767116540 'Saved Games'/
+21955048183441808  Searches/
+17169973579360139  SendTo@
+ 3096224743827340 'Start Menu'@
+ 9007199254751118  Templates@
+ 7599824371197691  Videos/
+36310271995684725  ntuser.dat.LOG1
+ 9007199254751094  ntuser.dat.LOG2
+13510798882121629  ntuser.ini
+
+
+
+-->
+
+
+
+<!-- 
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 /
+$ ls
+LICENSE.txt        cmd/  git-bash.exe*  proc/         unins000.exe*
+ReleaseNotes.html  dev/  git-cmd.exe*   tmp/          unins000.msg
+bin/               etc/  mingw64/       unins000.dat  usr/ 
+
+-->
+
+
+
+<!-- SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ cd "\Users\SUDIP BHATTACHARYA\Desktop\WEB\P1"
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop/WEB/P1 -->
+
+
+
+  
+<!-- 
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ git --version
+git version 2.45.0.windows.1
+
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ cd SUDIP
+Display all 44 possibilities? (y or n)
+-1.14-windows.xml
+.MemuHyperv/
+.TianTianVM/
+.VirtualBox/
+.android/
+.bash_history
+.codeium/
+.config/
+.jsvu/
+.node_repl_history
+.skiko/
+.vscode/
+3D Objects/
+AppData/
+Application Data/
+Contacts/
+Cookies/
+Desktop/
+Documents/
+Downloads/
+Favorites/
+Links/
+Local Settings/
+--More--
+
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ pwd
+/c/Users/SUDIP BHATTACHARYA
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~/Desktop
+$ ls
+ 27-11-19.rtf
+'4K Video Downloader.lnk'*
+ Book1.xlsx
+'Counter-Strike 2.url'
+'Counter-Strike Global Offensive.url'
+ Download/
+'Ethernet 9.lnk'*
+'Explain the general procedure of DAC method with an example.docx'
+ IMG_20190707_123223-min.jpg
+ IMG_20190707_123241-min.jpg
+ Installation_Help_Pi.doc
+ Kindle.lnk*
+'MINES ACT QUIZ 2022 (1-200) 2022.pdf'
+'New Text Document.txt'
+"PLAYERUNKNOWN'S BATTLEGROUNDS.url"
+'PRANAB JUBILEE COLLEGE.docx'
+'PUBG Experimental Server.url'
+'PUBG Test Server.url'
+ Personal-Loan.pdf
+'Pro Evolution Soccer 2017.url'
+'SBI Card G-mail details.rtf'
+ SBI.pdf
+'Sudeep - Chrome.lnk'*
+'Visual Studio Code.lnk'*
+ WEB/
+ Z/
+ desktop.ini
+'~$ANAB JUBILEE COLLEGE.docx'
+'~$SUDIP.txt'
+'~WRL0005.tmp'
+
+
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ ls
+ -1.14-windows.xml
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ MicrosoftEdgeBackups/
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TM.blf
+ NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ clear
+
+
+SUDIP BHATTACHARYA@DESKTOP-JPAMA9V MINGW64 ~
+$ dir
+-1.14-windows.xml
+3D\ Objects
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+Links
+Local\ Settings
+MicrosoftEdgeBackups
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TM.blf
+NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{af051bdf-bb12-11e8-b16f-14dda977b107}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+OneDrive
+Pictures
+PrintHood
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+
+ -->
+
+<!-- GNU General Public License
+Version 2, June 1991
+
+Copyright (C) 1989, 1991 Free Software Foundation, Inc.
+59 Temple Place - Suite 330, Boston, MA  02111-1307, USA
+
+Everyone is permitted to copy and distribute verbatim copies
+of this license document, but changing it is not allowed.
+
+Preamble
+The licenses for most software are designed to take away your freedom to share and change it. By contrast, the GNU General Public License is intended to guarantee your freedom to share and change free software--to make sure the software is free for all its users. This General Public License applies to most of the Free Software Foundation's software and to any other program whose authors commit to using it. (Some other Free Software Foundation software is covered by the GNU Library General Public License instead.) You can apply it to your programs, too. 
+When we speak of free software, we are referring to freedom, not price. Our General Public Licenses are designed to make sure that you have the freedom to distribute copies of free software (and charge for this service if you wish), that you receive source code or can get it if you want it, that you can change the software or use pieces of it in new free programs; and that you know you can do these things. 
+To protect your rights, we need to make restrictions that forbid anyone to deny you these rights or to ask you to surrender the rights. These restrictions translate to certain responsibilities for you if you distribute copies of the software, or if you modify it. 
+For example, if you distribute copies of such a program, whether gratis or for a fee, you must give the recipients all the rights that you have. You must make sure that they, too, receive or can get the source code. And you must show them these terms so they know their rights. 
+We protect your rights with two steps: (1) copyright the software, and (2) offer you this license which gives you legal permission to copy, distribute and/or modify the software. 
+Also, for each author's protection and ours, we want to make certain that everyone understands that there is no warranty for this free software. If the software is modified by someone else and passed on, we want its recipients to know that what they have is not the original, so that any problems introduced by others will not reflect on the original authors' reputations. 
+Finally, any free program is threatened constantly by software patents. We wish to avoid the danger that redistributors of a free program will individually obtain patent licenses, in effect making the program proprietary. To prevent this, we have made it clear that any patent must be licensed for everyone's free use or not licensed at all. 
+The precise terms and conditions for copying, distribution and modification follow. 
+TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+0. This License applies to any program or other work which contains a notice placed by the copyright holder saying it may be distributed under the terms of this General Public License. The "Program", below, refers to any such program or work, and a "work based on the Program" means either the Program or any derivative work under copyright law: that is to say, a work containing the Program or a portion of it, either verbatim or with modifications and/or translated into another language. (Hereinafter, translation is included without limitation in the term "modification".) Each licensee is addressed as "you". 
+Activities other than copying, distribution and modification are not covered by this License; they are outside its scope. The act of running the Program is not restricted, and the output from the Program is covered only if its contents constitute a work based on the Program (independent of having been made by running the Program). Whether that is true depends on what the Program does. 
+1. You may copy and distribute verbatim copies of the Program's source code as you receive it, in any medium, provided that you conspicuously and appropriately publish on each copy an appropriate copyright notice and disclaimer of warranty; keep intact all the notices that refer to this License and to the absence of any warranty; and give any other recipients of the Program a copy of this License along with the Program. 
+You may charge a fee for the physical act of transferring a copy, and you may at your option offer warranty protection in exchange for a fee. 
+2. You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions: 
+a) You must cause the modified files to carry prominent notices stating that you changed the files and the date of any change. 
+b) You must cause any work that you distribute or publish, that in whole or in part contains or is derived from the Program or any part thereof, to be licensed as a whole at no charge to all third parties under the terms of this License. 
+c) If the modified program normally reads commands interactively when run, you must cause it, when started running for such interactive use in the most ordinary way, to print or display an announcement including an appropriate copyright notice and a notice that there is no warranty (or else, saying that you provide a warranty) and that users may redistribute the program under these conditions, and telling the user how to view a copy of this License. (Exception: if the Program itself is interactive but does not normally print such an announcement, your work based on the Program is not required to print an announcement.) 
+These requirements apply to the modified work as a whole. If identifiable sections of that work are not derived from the Program, and can be reasonably considered independent and separate works in themselves, then this License, and its terms, do not apply to those sections when you distribute them as separate works. But when you distribute the same sections as part of a whole which is a work based on the Program, the distribution of the whole must be on the terms of this License, whose permissions for other licensees extend to the entire whole, and thus to each and every part regardless of who wrote it. 
+Thus, it is not the intent of this section to claim rights or contest your rights to work written entirely by you; rather, the intent is to exercise the right to control the distribution of derivative or collective works based on the Program. 
+In addition, mere aggregation of another work not based on the Program with the Program (or with a work based on the Program) on a volume of a storage or distribution medium does not bring the other work under the scope of this License. 
+3. You may copy and distribute the Program (or a work based on it, under Section 2) in object code or executable form under the terms of Sections 1 and 2 above provided that you also do one of the following: 
+a) Accompany it with the complete corresponding machine-readable source code, which must be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or, 
+b) Accompany it with a written offer, valid for at least three years, to give any third party, for a charge no more than your cost of physically performing source distribution, a complete machine-readable copy of the corresponding source code, to be distributed under the terms of Sections 1 and 2 above on a medium customarily used for software interchange; or, 
+c) Accompany it with the information you received as to the offer to distribute corresponding source code. (This alternative is allowed only for noncommercial distribution and only if you received the program in object code or executable form with such an offer, in accord with Subsection b above.) 
+The source code for a work means the preferred form of the work for making modifications to it. For an executable work, complete source code means all the source code for all modules it contains, plus any associated interface definition files, plus the scripts used to control compilation and installation of the executable. However, as a special exception, the source code distributed need not include anything that is normally distributed (in either source or binary form) with the major components (compiler, kernel, and so on) of the operating system on which the executable runs, unless that component itself accompanies the executable. 
+If distribution of executable or object code is made by offering access to copy from a designated place, then offering equivalent access to copy the source code from the same place counts as distribution of the source code, even though third parties are not compelled to copy the source along with the object code. 
+4. You may not copy, modify, sublicense, or distribute the Program except as expressly provided under this License. Any attempt otherwise to copy, modify, sublicense or distribute the Program is void, and will automatically terminate your rights under this License. However, parties who have received copies, or rights, from you under this License will not have their licenses terminated so long as such parties remain in full compliance. 
+5. You are not required to accept this License, since you have not signed it. However, nothing else grants you permission to modify or distribute the Program or its derivative works. These actions are prohibited by law if you do not accept this License. Therefore, by modifying or distributing the Program (or any work based on the Program), you indicate your acceptance of this License to do so, and all its terms and conditions for copying, distributing or modifying the Program or works based on it. 
+6. Each time you redistribute the Program (or any work based on the Program), the recipient automatically receives a license from the original licensor to copy, distribute or modify the Program subject to these terms and conditions. You may not impose any further restrictions on the recipients' exercise of the rights granted herein. You are not responsible for enforcing compliance by third parties to this License. 
+7. If, as a consequence of a court judgment or allegation of patent infringement or for any other reason (not limited to patent issues), conditions are imposed on you (whether by court order, agreement or otherwise) that contradict the conditions of this License, they do not excuse you from the conditions of this License. If you cannot distribute so as to satisfy simultaneously your obligations under this License and any other pertinent obligations, then as a consequence you may not distribute the Program at all. For example, if a patent license would not permit royalty-free redistribution of the Program by all those who receive copies directly or indirectly through you, then the only way you could satisfy both it and this License would be to refrain entirely from distribution of the Program. 
+If any portion of this section is held invalid or unenforceable under any particular circumstance, the balance of the section is intended to apply and the section as a whole is intended to apply in other circumstances. 
+It is not the purpose of this section to induce you to infringe any patents or other property right claims or to contest validity of any such claims; this section has the sole purpose of protecting the integrity of the free software distribution system, which is implemented by public license practices. Many people have made generous contributions to the wide range of software distributed through that system in reliance on consistent application of that system; it is up to the author/donor to decide if he or she is willing to distribute software through any other system and a licensee cannot impose that choice. 
+This section is intended to make thoroughly clear what is believed to be a consequence of the rest of this License. 
+8. If the distribution and/or use of the Program is restricted in certain countries either by patents or by copyrighted interfaces, the original copyright holder who places the Program under this License may add an explicit geographical distribution limitation excluding those countries, so that distribution is permitted only in or among countries not thus excluded. In such case, this License incorporates the limitation as if written in the body of this License. 
+9. The Free Software Foundation may publish revised and/or new versions of the General Public License from time to time. Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns. 
+Each version is given a distinguishing version number. If the Program specifies a version number of this License which applies to it and "any later version", you have the option of following the terms and conditions either of that version or of any later version published by the Free Software Foundation. If the Program does not specify a version number of this License, you may choose any version ever published by the Free Software Foundation. 
+10. If you wish to incorporate parts of the Program into other free programs whose distribution conditions are different, write to the author to ask for permission. For software which is copyrighted by the Free Software Foundation, write to the Free Software Foundation; we sometimes make exceptions for this. Our decision will be guided by the two goals of preserving the free status of all derivatives of our free software and of promoting the sharing and reuse of software generally. 
+NO WARRANTY
+11. BECAUSE THE PROGRAM IS LICENSED FREE OF CHARGE, THERE IS NO WARRANTY FOR THE PROGRAM, TO THE EXTENT PERMITTED BY APPLICABLE LAW. EXCEPT WHEN OTHERWISE STATED IN WRITING THE COPYRIGHT HOLDERS AND/OR OTHER PARTIES PROVIDE THE PROGRAM "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR IMPLIED, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE. THE ENTIRE RISK AS TO THE QUALITY AND PERFORMANCE OF THE PROGRAM IS WITH YOU. SHOULD THE PROGRAM PROVE DEFECTIVE, YOU ASSUME THE COST OF ALL NECESSARY SERVICING, REPAIR OR CORRECTION. 
+12. IN NO EVENT UNLESS REQUIRED BY APPLICABLE LAW OR AGREED TO IN WRITING WILL ANY COPYRIGHT HOLDER, OR ANY OTHER PARTY WHO MAY MODIFY AND/OR REDISTRIBUTE THE PROGRAM AS PERMITTED ABOVE, BE LIABLE TO YOU FOR DAMAGES, INCLUDING ANY GENERAL, SPECIAL, INCIDENTAL OR CONSEQUENTIAL DAMAGES ARISING OUT OF THE USE OR INABILITY TO USE THE PROGRAM (INCLUDING BUT NOT LIMITED TO LOSS OF DATA OR DATA BEING RENDERED INACCURATE OR LOSSES SUSTAINED BY YOU OR THIRD PARTIES OR A FAILURE OF THE PROGRAM TO OPERATE WITH ANY OTHER PROGRAMS), EVEN IF SUCH HOLDER OR OTHER PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. 
+END OF TERMS AND CONDITIONS -->
+
+<!-- PS C:\Users\SUDIP BHATTACHARYA\Desktop\WEB> ls
+
+
+    Directory: C:\Users\SUDIP BHATTACHARYA\Desktop\WEB
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----       02-05-2024     18:27                CAC_bind
+d-----       28-04-2024     13:49                cursor
+d-----       27-04-2024     15:08                curve
+d-----       05-05-2024     18:14                P1
+d-----       04-05-2024     11:18                P5
+d-----       01-05-2024     11:49                Text
+d-----       02-05-2024     14:33                text_gsap
+d-----       02-05-2024     14:33                timeline
+
+
+Node.js
+JavaScript Runtime Environment
+It is used for server side programmimg
+*Node.js is not a language,library or framework it is a runtime environmnt
+2009
+use to build web servers
+vs code is build using node js
+PS C:\Users\SUDIP BHATTACHARYA\Desktop\WEB> node
+Welcome to Node.js v20.12.2.
+Type ".help" for more information.
+> .exit
+mongo DB doesnt create id
+ -->

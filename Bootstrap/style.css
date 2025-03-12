@@ -1,0 +1,20 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  background-color: #111;
+  color: #fff;
+}
+
+
+/* .navbar .navbar-brand {
+  color: white;
+} */
+

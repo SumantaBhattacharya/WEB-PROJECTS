@@ -1,0 +1,63 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* normally 1 rem = 16px but i converts 1 rem = 10px eg- 1.6rem = 16px */
+}
+
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /* font-family: 'MyCustomFont', Arial, sans-serif; */
+    background-color: #313131;
+    color: white;
+}
+
+body{
+    text-align: center;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4vw;
+    flex-shrink: 1;
+}
+
+.btn{
+    margin: 1vw;
+    height: 8vw;
+    width: 8vw;
+    border: 0.3vw solid black;
+    border-radius: 10%;
+}
+
+#red{
+    background-color: #d95980;
+}
+#yellow{
+    background-color: #f99b45;
+}
+#green{
+    background-color: #63aac0;
+}
+#purple{
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: white !important;
+}
+
+.userflash{
+    background-color: green !important;
+}
