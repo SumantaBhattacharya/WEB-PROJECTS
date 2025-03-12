@@ -1,0 +1,85 @@
+
+@font-face {
+    font-family: 'MyCustomFont';
+    src: url(/text_gsap/FONTS/3856NeueMachina.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    font-family: 'MyCustomFont', Arial, sans-serif;
+    
+}
+
+.page1{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 5vw 0;
+}
+.page2{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    font-family: 'MyCustomFont', Arial, sans-serif;
+    color: white;
+    padding: 5vw 0;
+    background-color: #F9F7F4;
+}
+
+.page2 .move{
+    background-color: #D9FF06;
+    padding: 3rem 0;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.page2 .move .marque{
+    color: #000000;
+    background-color: #D9FF06;
+    /* background-color: aqua; */
+    position: relative;
+    text-transform: uppercase;
+    overflow: hidden;
+    letter-spacing: -0.01em;
+    padding: 0 4px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 3vw;
+    gap: 3vw;
+
+    transform: translateX(-100%);
+    
+}
+
+.page2 .move .marque h1{
+    font-size: 3.8vw;/* 72px */
+    font-weight: 800;
+}
+
+
+.page2 .move .marque img{
+    height: 5vw;
+    width: 5vw;
+    box-shadow: 0;
+    
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}

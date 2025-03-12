@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'MyCustomFonts';
+    src: url(/Zelt/UcCo3FwrK3iLTcviYwY.woff2) format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+
+.main {
+    position: relative;
+    overflow: hidden;
+}
+
+.page1 {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 2vw;
+}
+
+canvas {
+    width: 100%;
+    height: 100%;
+}
+
+.nav {
+    height: 8vh;
+    width: 31vw;
+    position: absolute;
+    z-index: 99;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 3%;
+    border-radius: 1vw;
+    background-color: rgba(255, 255, 255, 0.12);
+    /* background-color: blue; */
+    backdrop-filter: blur(2vw);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1vw;
+
+
+}
+
+.nav img {
+    /* height: 4vw; */
+    /* aspect-ratio:0/9; */
+    width: 3.8vw;
+    /* padding: 1vw; */
+}
+
+.nav button {
+    border: none;
+    background-color: #ffcd6d;
+    padding: 0.6vw;
+    border-radius: 0.3vw;
+    font-family: MyCustomFonts;
+    font-weight: 400;
+    font-size: 0.8vw;
+}
+
+.nav button:hover {
+    background-color: #ffcc6db6;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.6vw;
+    padding: 0.6vw;
+
+}
+
+
+.nav li {
+    font-size: 0.8vw;
+    font-family: MyCustomFonts;
+    /* color: #3B3E3F; */
+}
+
+.nav li i{
+    align-self: center;
+    font-size: 0.8vw;
+}
+
+
+.nav li a {
+    text-decoration: none;
+    color: #3B3E3F;
+    font-weight: 400;
+    
+}
+
+.nav li a:hover {
+   color: black;
+   scale: 1vw;
+}
+
+.page1 h1{
+    color: black;font-size: 2vw;
+    position: absolute;
+    text-align: center;
+    font-family: MyCustomFonts;
+    font-size: 5.6vw;
+    top: 18%;
+    /* left: 50%; */
+    font-weight: 550;
+    /* transform: translate(-50%,-50%); */
+    line-height: 5vw;
+}
+
+.page1 h5{
+    color: rgba(0, 0, 0, 0.435);
+    position: absolute;
+    text-align: center;
+    font-family: MyCustomFonts;
+    font-size: 1.4vw;
+    top: 30%;
+    /* left: 50%; */
+    font-weight: 550;
+    /* transform: translate(-50%,-50%); */
+    
+
+}
+
+.page2 {
+    height: 100vh;
+    width: 100%;
+    background-color: red;
+}

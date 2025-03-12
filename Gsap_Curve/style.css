@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #111;
+}
+
+.main{
+    height: 20vw;
+    width: 100%;
+    background-color: blue;
+}
+
+svg{
+    background-color: green;
+}
+
+
+
+/* https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths */
+/* https://gsap.com/docs/v3/Eases/ */

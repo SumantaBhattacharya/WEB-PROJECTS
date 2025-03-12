@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-color: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.cursor {
+    height: 1rem;
+    width: 1rem;
+    background: #fff;
+    border-radius: 50%;
+    position: fixed;
+    /* transform-origin: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    font-size: 5px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    z-index: 9;
+}
+
+
+.image {
+    height: 80vh;
+    width: 80vw;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.image img {
+    height: 80vh;
+    width: 50vw;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(255, 0, 0, 0); */
+    background-color: transparent;
+    position: absolute;/* the picture is taking full size of the div but due its height and weight it can cover tha presenty size oonly but its taking whole of the div */
+    z-index: 10;
+}
+/* we want the overlay and cursor upon the image div so that it removes the effect of glittering */
+
+/* By sending a message, you agree to our Terms. Read our Privacy Policy. Don't share sensitive info. Chats may be reviewed and used to train our models. Learn about your choices. */

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script >
+        
+// alert("")
+
+// Fundaments of javaScript
+// arrays and objects 
+// functions 
+// async
+
+var arr = [1,2,3,4];
+// foreach,map,filter,find,indexOf
+arr.forEach(function(val){
+    console.log(val+" hello");
+})
+
+var arr1 = [1,2,3,4];
+// foreach,map,filter,find,indexOf
+var ans = arr1.map(function(val){//es5 statements
+    // console.log(val+"hello");
+    return val *3;
+})
+
+console.log(ans);
+
+var arr3 = [1,2,3,4];
+// foreach,map,filter,find,indexOf
+var ans = arr3.filter(function(val){
+    if(val >= 3){
+        return true
+    }else{
+        false
+    }
+})
+
+console.log(ans);
+
+var arr4 = [1,2,3,4];
+// foreach,map,filter,find,indexOf
+var ans = arr4.find(function(val){
+    if(val == 3){
+        return val
+    };
+})
+
+console.log(ans);
+// -1 is false that element isnt present or found in the array
+console.log(arr.indexOf(2))
+
+// {} blank object
+
+var obj ={
+    name:"harsh"
+}
+
+console.log(obj.name)
+
+name = "sumanta"
+console.log(obj['name'])
+
+Object.freeze(obj);
+
+name = "sudip"
+console.log(obj.name)
+
+// number of parameters is equal to the length of the function
+var blop = await.fetech(`https://randomuser.me/api/`)
+var res = await.blop.json();
+console.log(res)
+
+// Axios = fetch
+
+
+// async function fetchData() {
+//     try {
+//         const response = await fetch('https://randomuser.me/api/');
+//         const data = await response.json();
+//         console.log(data);
+//         console.log(ans.results[0].name);
+//     } catch (error) {
+//         console.error('Error fetching data:', error);
+//     }
+// }
+
+// fetchData();
+
+    </script>
+</body>
+</html>
