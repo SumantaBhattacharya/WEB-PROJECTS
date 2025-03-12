@@ -168,3 +168,10 @@ console.log(arr2.reduceRight((accumulator, currentValue) => accumulator * curren
 // git remote -v
 // git remote remove origin  
 
+console.log(5 == "5"); // true (string "5" is converted to number 5)
+console.log(false == 0); // true (false is converted to 0)
+console.log(null == undefined); // true
+
+console.log(5 === "5"); // false (different data types: number vs. string)
+console.log(false === 0); // false (boolean vs. number)
+console.log(null === undefined); // false (different types)
